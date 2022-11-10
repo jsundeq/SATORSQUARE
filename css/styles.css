@@ -13,11 +13,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 10rem);
-    grid-template-columns: repeat(5, 10rem);
     margin: auto;
-    padding: 0;
-    border-radius: 13px;
-    gap: 0;
 }
 
 .grid-item {
@@ -32,19 +28,14 @@ body {
 }
 
 .grid-item-1 {
-    background-color: black;
-    color: rgb(255, 255, 255);
-    font-weight: 1000;
     border-radius: 13px 0 0 0;
-    border-top: solid rgb(255, 0, 0) 3px;
-    border-left: solid rgb(255, 0, 0) 3px;
+    border-top: solid rgb(255, 0, 0) 5px;
+    border-left: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-2 {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    border-top: solid rgb(255, 0, 0) 3px;
-    border-right: solid rgb(255, 0, 0) 3px;
+    border-top: solid rgb(255, 0, 0) 5px;
+    border-right: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-3 {
@@ -56,28 +47,22 @@ body {
 }
 
 .grid-item-4 {
-    background-color: rgb(0, 0, 0);
-    border-top: solid rgb(255, 0, 0) 3px;
-    border-left: solid rgb(255, 0, 0) 3px;
+    border-top: solid rgb(255, 0, 0) 5px;
+    border-left: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-5 {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-weight: 1000;
     border-radius: 0 13px 0 0;
-    border-top: solid rgb(255, 0, 0) 3px;
-    border-right: solid rgb(255, 0, 0) 3px;
+    border-top: solid rgb(255, 0, 0) 5px;
+    border-right: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-6 {
-    background-color: rgb(0, 0, 0);
-    border-left: solid rgb(255, 0, 0) 3px;
+    border-left: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-7 {
-    background-color: rgb(0, 0, 0);
-    border-right: solid rgb(255, 0, 0) 3px;
+    border-right: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-8 {
@@ -89,24 +74,25 @@ body {
 }
 
 .grid-item-9 {
-    background-color: rgb(0, 0, 0);
-    border-left: solid rgb(255, 0, 0) 3px;
+    border-left: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-10 {
-    background-color: rgb(0, 0, 0);
-    border-right: solid rgb(255, 0, 0) 3px;
+    border-right: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-11 {
-    background-color: rgb(0, 0, 0);
-    border-left: solid rgb(255, 0, 0) 3px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-top: solid rgb(255, 0, 0) 5px;
+    border-bottom: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-12 {
-    background-color: rgb(0, 0, 0);
-    border-right: solid rgb(255, 0, 0) 3px;
-    border-bottom: solid rgb(255, 0, 0) 3px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-top: solid rgb(255, 0, 0) 5px;
+    border-bottom: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-13 {
@@ -118,28 +104,25 @@ body {
 }
 
 .grid-item-14 {
-    background-color: rgb(0, 0, 0);
-    border-left: solid rgb(255, 0, 0) 3px;
-    border-bottom: solid rgb(255, 0, 0) 3px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border-bottom: solid rgb(255, 0, 0) 5px;
+    border-top: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-15 {
-    background-color: rgb(0, 0, 0);
-    border-right: solid rgb(255, 0, 0) 3px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border-top: solid rgb(255, 0, 0) 5px;
+    border-bottom: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-16 {
-    background-color: rgb(0, 0, 0);
-    border-left: solid rgb(255, 0, 0) 3px;
-    border-right: solid rgb(255, 0, 0) 3px;}
-
+    border-left: solid rgb(255, 0, 0) 5px;
+}
 
 .grid-item-17 {
-    background-color: white;
-    color: black;
-    font-weight: 1000;
-    font-size: 9rem;
-    text-align: center;
+    border-right: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-18 {
@@ -151,28 +134,22 @@ body {
 }
 
 .grid-item-19 {
-    background-color: white;
-    color: black;
+    border-left: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-20 {
-    background-color: rgb(0, 0, 0);
-    border-right: solid rgb(255, 0, 0) 3px;
-    border-left: solid rgb(255, 0, 0) 3px;
+    border-right: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-21 {
-    background-color: rgb(0, 0, 0);
     border-radius: 0 0 0 13px;
-    border-left: solid rgb(255, 0, 0) 3px;
-    border-bottom: solid rgb(255, 0, 0) 3px;
+    border-left: solid rgb(255, 0, 0) 5px;
+    border-bottom: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-22 {
-    background-color: rgb(0, 0, 0);
-    border-bottom: solid rgb(255, 0, 0) 3px;
-    border-top: solid rgb(255, 0, 0) 3px;
-    border-right: solid rgb(255, 0, 0) 3px;
+    border-bottom: solid rgb(255, 0, 0) 5px;
+    border-right: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-23 {
@@ -184,15 +161,12 @@ body {
 }
 
 .grid-item-24 {
-    background-color: rgb(0, 0, 0);
-    border-bottom: solid rgb(255, 0, 0) 3px;
-    border-top: solid rgb(255, 0, 0) 3px;
-    border-left: solid rgb(255, 0, 0) 3px;
+    border-bottom: solid rgb(255, 0, 0) 5px;
+    border-left: solid rgb(255, 0, 0) 5px;
 }
 
 .grid-item-25 {
-    background-color: rgb(0, 0, 0);
     border-radius: 0 0 13px 0;
-    border-bottom: solid rgb(255, 0, 0) 3px;
-    border-right: solid rgb(255, 0, 0) 3px;
+    border-bottom: solid rgb(255, 0, 0) 5px;
+    border-right: solid rgb(255, 0, 0) 5px;
 }
